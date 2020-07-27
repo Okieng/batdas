@@ -1,0 +1,113 @@
+body{
+  background-image: url(../img/);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.jumbotron {
+  background-image: url("../img/page-header.png");
+  background-size: 100% 100%;
+  color: #b0bec5;
+  margin-bottom: 0;
+}
+.navbar-scroll {
+  background-color: #c6e4e6 !important;
+  transition: background-color 0.5s;
+  color: #000 !important;
+}
+
+
+.right{
+	text-align: right;
+}
+
+h1{
+	text-align: center;
+}
+
+h5{
+	color: #c6e4e6;
+}
+
+h3{
+	text-align: center;
+}
+
+h4{
+  text-align: center;
+  margin-bottom: -2px;
+}
+
+p{
+  text-align: center;
+}
+
+h4:hover {
+  color: yellow;
+  transition: color 1s; /* For modern browsers */
+}
+
+
+.image {
+  width: 170px;
+  border-radius:50%;
+}
+
+img:hover{
+  opacity: 0.8;
+}
+
+
+.overlay-1 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.anjing:hover .overlay-1 {
+  opacity: 1;
+}
+
+.text-1 {
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.goblog:hover .overlay-2 {
+  opacity: 1;
+}
+
+
+.overlay-2 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.text-2 {
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
