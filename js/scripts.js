@@ -40,3 +40,5 @@ $(this).addClass("active");
       section.className = 'section--purple wow fadeInDown';
       this.parentNode.insertBefore(section, this);
     };
+
+    
