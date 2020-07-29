@@ -17,6 +17,30 @@
   text-align: center;
 }
 
+.section-2{
+  color: #000;
+  text-align: center;
+}
+
 #image-section-1{
   width: 100%;
+}
+
+#image-section-2{
+  margin-top:10%;
+  width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/header-index.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
