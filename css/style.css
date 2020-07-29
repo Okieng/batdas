@@ -1,11 +1,6 @@
-header{
+#header{
   background-image: url(../img/header-index.jpg);
   margin-bottom: 50px;
-}
-
-h1 , p {
-  text-align: center;
-  color: white;
 }
 
 .navbar{
@@ -17,36 +12,11 @@ h1 , p {
   margin-right: 10px;
 }
 
-.nav-link:hover{
-  color:#f1c40f;
-}
-
 .section-1{
+  color: #fff;
   text-align: center;
-  color: black;
 }
 
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+#image-section-1{
+  width: 100%;
 }
-
-.parallax {
-  /* The image used */
-  background-image: url("../img/header-index.jpg");
-
-  /* Set a specific height */
-  height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
