@@ -24,7 +24,6 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
-
             wow = new WOW(
       {
         animateClass: 'animated',
