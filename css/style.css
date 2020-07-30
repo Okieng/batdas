@@ -1,3 +1,4 @@
+
 #header{
   background-image: url(../img/header-index.jpg);
   margin-bottom: 50px;
@@ -22,9 +23,15 @@ img {
   background:transparent !important;
 }
 
-.nav-link{
+.nav-menu{
   color: white !important;
-  margin-right: 10px;
+  margin-right: 20px;
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: #D2691E !important;
+  transition: 0.5s;
 }
 
 .section-1{
@@ -62,8 +69,11 @@ img {
 
 
 .menu{
-  color:#f029a2;
+  color:#D2691E;
 }
+
+
+
 
 footer{
   margin-top:10%;
