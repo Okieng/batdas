@@ -1,7 +1,9 @@
+body{
+  background-color: #e7eeed;
+}
 
 #header{
   background-image: url(../img/header-index.jpg);
-  margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,13 +48,14 @@ a:hover{
 }
 
 .section-2{
-  color: #000;
+  color: #212529;
   text-align: center;
 }
 
 #image-section-1{
   width: 100%;
 }
+
 
 #image-section-2{
   margin-top:10%;
@@ -75,7 +78,7 @@ a:hover{
 
 
 .menu{
-  color:#D2691E;
+  color:#ff771b;
 }
 
 label{
@@ -86,6 +89,9 @@ label{
   color: #4f494b;
 }
 
+
+
 footer{
   background-color: #b17943;
 }
+
